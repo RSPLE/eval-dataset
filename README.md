@@ -35,26 +35,35 @@ sobre os demais projetos, para contexto:
   dados). Não foi usado nesta rodada para manter uma fonte única e rastreável; pode ser incorporado
   em uma expansão futura do dataset.
 
+**Nota sobre auditoria de tema**: dos 7 livros do corpus, 1 (*Conceitos de Linguagens de
+Programação*, de Robert W. Sebesta) foi **removido como fonte** após uma auditoria de tema: embora
+esteja fisicamente na pasta `docs/`, seu conteúdo trata de *design/implementação de linguagens de
+programação* (vinculação de tipos estática/dinâmica, resolução de escopo estático/dinâmico) — uma
+disciplina distinta de "lógica de programação", que é o raciocínio algorítmico de resolver
+problemas com sequência, decisão, repetição e estruturas de dados. As 5 perguntas inicialmente
+baseadas em Sebesta foram substituídas por perguntas equivalentes em dificuldade, mas ancoradas em
+tabelas hash e registros (estruturas de dados heterogêneas) — tópicos de algoritmos/estruturas de
+dados que os demais livros do corpus cobrem diretamente.
+
 Livros efetivamente usados como fonte (nome usado no campo `source_book`) e quantidade de
 perguntas geradas a partir de cada um:
 
 | Livro (`source_book`) | Perguntas |
 |---|---|
 | Lógica de programação (André Luiz Villar Forbellone) | 51 |
-| Entendendo Algoritmos (Aditya Y. Bhargava) | 18 |
+| Entendendo Algoritmos (Aditya Y. Bhargava) | 21 |
 | Fundamentos da programação de computadores (Ana Fernanda Gomes Ascencio et al.) | 9 |
-| Conceitos de Linguagens de Programação (Robert W. Sebesta) | 5 |
 | Introdução à programação com Python (Nilo Ney Coutinho Menezes) | 4 |
+| Algoritmos Lógica para desenvolvimento de programação de computadores | 3 |
 | Algoritmos e Programação de Computadores (Dilermando Junior, Gilberto Nakamiti) | 2 |
-| Algoritmos Lógica para desenvolvimento de programação de computadores | 1 |
 | **Total** | **90** |
 
-A distribuição não é uniforme entre os 7 livros porque cada um cobre o domínio com profundidade
+A distribuição não é uniforme entre os 6 livros porque cada um cobre o domínio com profundidade
 diferente: os livros introdutórios de lógica de programação (Forbellone, Ascencio et al.,
 Nakamiti) concentram os temas de nível FACIL e MEDIA, enquanto os temas DIFICIL (recursividade,
-busca/ordenação, complexidade, pilha/fila, tipagem e escopo) vêm majoritariamente de Bhargava
-("Entendendo Algoritmos") e Sebesta ("Conceitos de Linguagens de Programação"), os dois títulos do
-corpus que tratam desses tópicos com profundidade suficiente.
+busca/ordenação, complexidade, pilha/fila, tabelas hash, registros) vêm majoritariamente de
+Bhargava ("Entendendo Algoritmos") e do livro "Algoritmos Lógica para desenvolvimento...", os dois
+títulos do corpus que tratam desses tópicos com profundidade suficiente.
 
 ## Metodologia de criação
 
@@ -89,7 +98,7 @@ dificuldade inferido a partir do padrão implícito nas 10 perguntas originais:
 - **DIFICIL** (30 perguntas): perguntas que exigem síntese, comparação entre abordagens diferentes,
   ou entendimento de um fluxo/algoritmo completo — subprogramas e passagem de parâmetros,
   recursividade, algoritmos de busca e ordenação, complexidade (Big-O), estruturas de dados (pilha,
-  fila) e conceitos de linguagens de programação (tipagem, escopo estático/dinâmico).
+  fila, tabela hash e registros).
 
 A divisão entre categorias é de **30/30/30** (partes iguais), diferente da proporção 4/3/3 das 10
 perguntas originais, para garantir volume estatístico equivalente nas três categorias ao calcular

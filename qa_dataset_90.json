@@ -436,9 +436,9 @@
   {
     "id": "Q063",
     "category": "DIFICIL",
-    "question": "Segundo Sebesta, qual é a principal diferença de comportamento entre a passagem de parâmetros por valor e por referência quanto ao acesso do subprograma chamado às variáveis do chamador?",
-    "ground_truth": "Na passagem por valor, o valor do argumento é copiado para o parâmetro formal, que passa a se comportar como uma variável local do subprograma chamado, de modo que alterações nele não afetam a variável original do chamador. Já na passagem por referência, é transmitido um caminho de acesso (normalmente um endereço) até a variável do chamador, e o subprograma chamado passa a compartilhar e poder alterar diretamente essa variável original.",
-    "source_book": "Conceitos de Linguagens de Programação (Robert W. Sebesta)"
+    "question": "O que é o fator de carga de uma tabela hash e por que ele é usado como critério para redimensionar a tabela?",
+    "ground_truth": "O fator de carga mede a proporção entre o número de itens armazenados e o número total de espaços do array interno da tabela hash (por exemplo, 2 itens em 5 espaços dá um fator de carga de 2/5). Quando esse valor fica alto, aumenta a chance de colisões e o desempenho piora; por isso, ao ultrapassar um certo limite (uma boa regra prática é 0,7), cria-se um array maior, geralmente o dobro do tamanho original, e todos os itens são reinseridos usando a função hash, o que reduz o fator de carga e mantém o tempo de execução médio próximo de O(1).",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
   },
   {
     "id": "Q064",
@@ -604,29 +604,29 @@
   {
     "id": "Q087",
     "category": "DIFICIL",
-    "question": "Qual é a diferença entre vinculação de tipos estática e vinculação de tipos dinâmica, segundo Sebesta?",
-    "ground_truth": "Na vinculação estática, o tipo de uma variável é definido antes da execução, por meio de uma declaração explícita ou implícita, e permanece fixo durante toda a vida da variável. Na vinculação dinâmica, o tipo não é declarado antecipadamente: a variável só é vinculada a um tipo quando recebe um valor em uma atribuição, e esse tipo pode mudar quantas vezes forem necessárias ao longo da execução, conforme novos valores lhe sejam atribuídos.",
-    "source_book": "Conceitos de Linguagens de Programação (Robert W. Sebesta)"
+    "question": "O que é uma função hash e como ela permite que uma tabela hash encontre um valor com tempo de execução O(1)?",
+    "ground_truth": "Uma função hash recebe uma chave (como uma string) e devolve consistentemente o mesmo número para a mesma entrada, mapeando essa chave para uma posição de um array interno. Como a tabela hash usa esse número como índice direto no array, ela acessa o valor associado à chave imediatamente, sem precisar percorrer os demais elementos, o que garante tempo de execução O(1) mesmo quando a quantidade de itens armazenados aumenta.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
   },
   {
     "id": "Q088",
     "category": "DIFICIL",
-    "question": "Quais são as principais desvantagens da vinculação de tipos dinâmica apontadas por Sebesta?",
-    "ground_truth": "A vinculação dinâmica reduz a confiabilidade dos programas, pois o compilador perde a capacidade de detectar erros de tipo antes da execução: um erro de digitação que atribui um valor do tipo errado a uma variável não é identificado, o tipo da variável simplesmente muda. Além disso, ela tem custo maior em tempo de execução, já que a verificação de tipos precisa ocorrer durante a execução e cada variável precisa manter um descritor de tipo, o que costuma exigir que a linguagem seja implementada por um interpretador em vez de um compilador.",
-    "source_book": "Conceitos de Linguagens de Programação (Robert W. Sebesta)"
+    "question": "O que é uma colisão em uma tabela hash e qual é a solução mais simples para resolvê-la?",
+    "ground_truth": "Uma colisão ocorre quando a função hash mapeia duas chaves diferentes para o mesmo espaço do array interno da tabela, fazendo com que um valor sobrescreva o outro. A solução mais simples é, quando várias chaves caem no mesmo espaço, iniciar ali uma lista encadeada com todos os itens daquele espaço; a busca por uma chave específica passa então a percorrer essa pequena lista em vez do array inteiro, desde que a função hash seja boa o suficiente para manter essas listas curtas.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
   },
   {
     "id": "Q089",
     "category": "DIFICIL",
-    "question": "Como funciona a regra de escopo estático para resolver a que variável uma referência não local se refere?",
-    "ground_truth": "No escopo estático, quando uma variável é referenciada dentro de um subprograma, a busca por sua declaração começa nesse próprio subprograma; se não for encontrada ali, a busca segue para o 'pai estático', a unidade de programa que o envolve textualmente no código-fonte, e assim sucessivamente até os ancestrais mais externos, até a declaração ser localizada. Por depender apenas da estrutura textual do programa, o escopo de uma variável pode ser determinado antes mesmo de o programa ser executado.",
-    "source_book": "Conceitos de Linguagens de Programação (Robert W. Sebesta)"
+    "question": "O que é um registro (estrutura de dados heterogênea) e no que ele se diferencia de um vetor ou de uma matriz?",
+    "ground_truth": "Um registro é um tipo de dado derivado que agrupa, em uma mesma estrutura, vários campos que podem ser de tipos primitivos diferentes entre si, como cadeia, caractere, inteiro e real ao mesmo tempo. Isso o torna uma estrutura heterogênea, diferente de um vetor ou de uma matriz, que são estruturas homogêneas e só conseguem armazenar dados de um único tipo em todas as suas posições.",
+    "source_book": "Algoritmos Lógica para desenvolvimento de programação de computadores"
   },
   {
     "id": "Q090",
     "category": "DIFICIL",
-    "question": "Em que o escopo dinâmico se diferencia do escopo estático na forma de resolver uma referência a uma variável não local?",
-    "ground_truth": "Enquanto o escopo estático segue a estrutura textual do código-fonte para localizar uma declaração, o escopo dinâmico segue a sequência real de chamadas de subprogramas em tempo de execução: a busca por uma variável não local passa primeiro pelo subprograma que chamou o subprograma atual, depois por quem chamou esse, e assim por diante. Por isso, o significado de uma mesma referência pode mudar de uma execução para outra, dependendo da sequência de chamadas, e só pode ser determinado durante a execução do programa.",
-    "source_book": "Conceitos de Linguagens de Programação (Robert W. Sebesta)"
+    "question": "Como se declara um tipo registro e como se acessa um campo específico de uma variável desse tipo?",
+    "ground_truth": "A declaração é feita com o comando tipo, definindo um identificador seguido de registro, listando cada campo com seu respectivo tipo primitivo e encerrando com fim_registro; em seguida, o comando var associa uma variável a esse tipo derivado. Para acessar ou atribuir um campo específico dessa variável, usa-se a notação variável.campo (por exemplo, ALUNO.NOME ou ALUNO.NOTA1), separando o nome da variável do nome do campo por um ponto.",
+    "source_book": "Algoritmos Lógica para desenvolvimento de programação de computadores"
   }
 ]

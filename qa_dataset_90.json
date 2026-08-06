@@ -1,0 +1,632 @@
+[
+  {
+    "id": "Q001",
+    "category": "FACIL",
+    "question": "O que significa 'lógica de programação' em palavras simples?",
+    "ground_truth": "É o uso correto das leis do pensamento e de processos organizados de raciocínio aplicados à criação de programas de computador, com o objetivo de produzir soluções válidas e coerentes que resolvam com qualidade os problemas propostos.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q002",
+    "category": "FACIL",
+    "question": "Existe lógica no nosso dia a dia, fora da programação de computadores?",
+    "ground_truth": "Sim. Sempre que pensamos, falamos, escrevemos ou agimos de forma correta, estamos colocando 'ordem no pensamento', ou seja, aplicando lógica; ela não está restrita à matemática nem à informática, aparecendo em situações simples do cotidiano.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q003",
+    "category": "FACIL",
+    "question": "De um jeito bem direto: o que é um algoritmo?",
+    "ground_truth": "É uma sequência de passos bem definidos e ordenados, com o objetivo de resolver um determinado problema ou alcançar um resultado esperado, como os passos de uma receita de bolo.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q004",
+    "category": "FACIL",
+    "question": "Quais são as principais formas de representar um algoritmo?",
+    "ground_truth": "Pode ser representado de forma textual, escrevendo os passos em português coloquial ou em português estruturado, ou de forma gráfica, como em um fluxograma ou em um diagrama de Chapin. Cada técnica tem vantagens e desvantagens quanto à clareza e à facilidade de escrita.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q005",
+    "category": "FACIL",
+    "question": "O que é uma variável dentro de um algoritmo?",
+    "ground_truth": "É um dado que pode ter seu valor alterado durante a execução do algoritmo, ficando guardado em um local de memória identificado por um nome. É como uma gaveta rotulada que pode trocar o objeto guardado dentro dela ao longo do tempo.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q006",
+    "category": "FACIL",
+    "question": "Que regras um identificador (nome de variável) precisa seguir?",
+    "ground_truth": "Deve começar obrigatoriamente com um caractere alfabético, pode ser seguido de outras letras ou números, e não deve conter caracteres especiais nem espaços em branco.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q007",
+    "category": "FACIL",
+    "question": "O que é uma constante em um algoritmo?",
+    "ground_truth": "É um dado cujo valor não muda em nenhum momento durante a execução do algoritmo, permanecendo igual do início ao fim, e também sendo o mesmo em execuções diferentes ao longo do tempo.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q008",
+    "category": "FACIL",
+    "question": "Por que usamos aspas duplas ao escrever uma constante do tipo caractere?",
+    "ground_truth": "As aspas duplas servem para delimitar e diferenciar os dados constantes do tipo caractere dos demais tipos primitivos, deixando claro no algoritmo onde começa e onde termina esse texto fixo.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q009",
+    "category": "FACIL",
+    "question": "Qual é a diferença entre constante e variável?",
+    "ground_truth": "A constante mantém sempre o mesmo valor do início ao fim da execução do algoritmo, enquanto a variável pode ter seu valor alterado a qualquer momento durante essa execução.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q010",
+    "category": "FACIL",
+    "question": "Dê um exemplo que ajude a entender a diferença entre constante e variável.",
+    "ground_truth": "No cálculo da área de uma circunferência, o valor de pi é uma constante, pois vale sempre o mesmo número independentemente do cálculo; já o raio é uma variável, porque muda de acordo com a circunferência que está sendo considerada.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q011",
+    "category": "FACIL",
+    "question": "Quais são os tipos primitivos de dados usados na lógica de programação?",
+    "ground_truth": "São quatro: inteiro (números inteiros positivos, negativos ou nulos), real (números com casas decimais), caractere (letras, números e símbolos tratados como texto) e lógico (que só admite os valores verdade ou falsidade).",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q012",
+    "category": "FACIL",
+    "question": "O que caracteriza o tipo de dado lógico?",
+    "ground_truth": "É um tipo de informação biestável, ou seja, que só pode assumir uma de duas situações possíveis, representadas por convenção como verdade (V) ou falsidade (F), como uma porta que só pode estar aberta ou fechada.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q013",
+    "category": "FACIL",
+    "question": "Pra que serve o comando 'leia' em um algoritmo?",
+    "ground_truth": "É o comando de entrada de dados: ele recebe um valor vindo de fora do algoritmo, como algo digitado pelo usuário, e atribui esse valor à variável indicada entre parênteses.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q014",
+    "category": "FACIL",
+    "question": "De onde vêm os dados que o comando de entrada guarda nas variáveis?",
+    "ground_truth": "Vêm do meio externo ao algoritmo, como o teclado ou outro dispositivo de entrada, de forma parecida com ingredientes que entram em uma receita; sem essa entrada, o algoritmo não teria com o que trabalhar.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q015",
+    "category": "FACIL",
+    "question": "Qual é a função do comando 'escreva' em um algoritmo?",
+    "ground_truth": "É o comando de saída de dados: ele exibe o conteúdo de uma variável identificada, mostrando ao usuário o resultado ou a resposta calculada pelo algoritmo.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q016",
+    "category": "FACIL",
+    "question": "Dá pra exibir mais de uma informação em um único comando 'escreva'?",
+    "ground_truth": "Sim, basta colocar vários identificadores, expressões ou textos entre parênteses separados por vírgula, como em escreva('Você pesa', P, 'quilos'), permitindo combinar texto fixo com o valor de variáveis.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q017",
+    "category": "FACIL",
+    "question": "Quais são os operadores aritméticos básicos usados em algoritmos?",
+    "ground_truth": "São a adição (+), a subtração (-), a multiplicação (*) e a divisão (/), usados para representar as operações matemáticas fundamentais entre constantes ou variáveis numéricas.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q018",
+    "category": "FACIL",
+    "question": "Como se representam potenciação e radiciação em pseudocódigo, já que não se usam os símbolos ^ e √?",
+    "ground_truth": "Usam-se palavras-chave: pot(x,y) representa x elevado a y, e rad(x) representa a raiz quadrada de x.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q019",
+    "category": "FACIL",
+    "question": "Para que servem os operadores relacionais?",
+    "ground_truth": "Servem para comparar dois valores de mesmo tipo primitivo, sejam constantes, variáveis ou expressões aritméticas, permitindo construir relações como igualdade ou desigualdade entre eles.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q020",
+    "category": "FACIL",
+    "question": "O resultado de uma comparação feita com operador relacional é sempre de que tipo?",
+    "ground_truth": "É sempre um valor lógico, verdade ou falsidade, dependendo se a relação testada entre os dois valores comparados se confirma ou não.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q021",
+    "category": "FACIL",
+    "question": "Quais são os três operadores lógicos básicos e o que cada um faz?",
+    "ground_truth": "São não, que inverte o valor de uma condição (negação); e, que só resulta verdadeiro quando os dois operandos forem verdadeiros (conjunção); e ou, que resulta verdadeiro quando pelo menos um dos operandos for verdadeiro (disjunção).",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q022",
+    "category": "FACIL",
+    "question": "O operador lógico 'e' entre duas condições resulta verdadeiro em qual situação?",
+    "ground_truth": "Somente quando as duas condições avaliadas forem simultaneamente verdadeiras; se qualquer uma delas for falsa, o resultado do 'e' também será falso.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q023",
+    "category": "FACIL",
+    "question": "O que faz o comando de atribuição em um algoritmo?",
+    "ground_truth": "Ele fornece um valor a uma variável, guardando nela o resultado de uma expressão ou de uma constante, desde que o tipo desse valor seja compatível com o tipo declarado da variável.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q024",
+    "category": "FACIL",
+    "question": "O que precisa existir do lado esquerdo do símbolo de atribuição?",
+    "ground_truth": "Deve existir apenas um identificador, ou seja, o nome de uma única variável, já que é nela que o valor calculado do lado direito da expressão será armazenado.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q025",
+    "category": "FACIL",
+    "question": "O que caracteriza a estrutura sequencial de um algoritmo?",
+    "ground_truth": "É quando o conjunto de ações do algoritmo é executado uma após a outra, em ordem linear de cima para baixo, seguindo exatamente a mesma ordem em que as ações foram escritas.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q026",
+    "category": "FACIL",
+    "question": "Como as ações costumam ser separadas dentro da estrutura sequencial de um algoritmo?",
+    "ground_truth": "Convenciona-se separar cada ação da seguinte por um ponto e vírgula (;), sinalizando que, ao encontrá-lo, o próximo comando da sequência deve passar a ser executado.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q027",
+    "category": "FACIL",
+    "question": "Qual é a ordem de prioridade entre parênteses, operadores aritméticos, relacionais e lógicos numa expressão?",
+    "ground_truth": "Primeiro resolvem-se os parênteses mais internos, depois os operadores aritméticos, em seguida os operadores relacionais e, por último, os operadores lógicos.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q028",
+    "category": "FACIL",
+    "question": "Entre os operadores lógicos não, e e ou, qual tem prioridade maior na hora de resolver uma expressão?",
+    "ground_truth": "O operador não tem prioridade mais alta, seguido pelo e, e por último o ou; nessa ordem eles são resolvidos quando aparecem juntos na mesma expressão lógica.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q029",
+    "category": "FACIL",
+    "question": "Quais são os tipos de dados numéricos usados em Python e qual a diferença entre eles?",
+    "ground_truth": "Python trabalha com números inteiros (int), que não possuem parte decimal, e números de ponto flutuante (float), que possuem parte decimal; mesmo um valor como 1.0, com zero na casa decimal, já é considerado de ponto flutuante.",
+    "source_book": "Introdução à programação com Python (Nilo Ney Coutinho Menezes)"
+  },
+  {
+    "id": "Q030",
+    "category": "FACIL",
+    "question": "Como o Python representa os valores lógicos (booleanos)?",
+    "ground_truth": "Usa o tipo lógico, também chamado de booleano, escrevendo True para representar verdadeiro e False para representar falso, sempre com a primeira letra maiúscula.",
+    "source_book": "Introdução à programação com Python (Nilo Ney Coutinho Menezes)"
+  },
+  {
+    "id": "Q031",
+    "category": "MEDIA",
+    "question": "Como funciona a estrutura condicional simples (se-então) e quando o comando associado a ela é realmente executado?",
+    "ground_truth": "Na estrutura condicional simples, um comando (ou bloco de comandos) só é executado quando a condição testada é verdadeira; se a condição for falsa, a estrutura é encerrada sem executar nada. Quando há mais de um comando dependendo da condição, é preciso delimitar esse conjunto com marcadores de início e fim de bloco (como início/fim), o que não é necessário havendo apenas um comando.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q032",
+    "category": "MEDIA",
+    "question": "Qual a diferença entre a estrutura condicional simples e a composta?",
+    "ground_truth": "Na estrutura simples existe apenas um desvio (então), que só executa uma ação quando a condição é verdadeira, não fazendo nada se ela for falsa. Já na estrutura composta há dois desvios, então e senão: se a condição for verdadeira executa-se o bloco do então, e se for falsa executa-se o bloco do senão, garantindo que sempre alguma ação seja tomada.",
+    "source_book": "Fundamentos da programação de computadores (Ana Fernanda Gomes Ascencio et al.)"
+  },
+  {
+    "id": "Q033",
+    "category": "MEDIA",
+    "question": "Numa seleção composta, o que acontece se o resultado da condição for falso?",
+    "ground_truth": "Quando o resultado da condição avaliada é falso, o algoritmo desvia para o bloco associado à cláusula senão, executando a sequência de comandos (ou a ação única) prevista para esse caso, em vez do bloco associado ao então, que só roda quando a condição é verdadeira.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q034",
+    "category": "MEDIA",
+    "question": "O que caracteriza uma estrutura condicional encadeada (senão-se) e por que ela é chamada de heterogênea quando não existe um padrão de construção?",
+    "ground_truth": "Uma estrutura encadeada surge quando várias seleções são agrupadas em sequência, geralmente porque uma ação só deve ocorrer se um conjunto amplo de possibilidades ou combinações de condições for satisfeito, testando uma nova condição dentro da cláusula senão da anterior. Quando essas seleções encadeadas não seguem um padrão lógico identificável de construção, a estrutura é chamada de encadeada heterogênea.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q035",
+    "category": "MEDIA",
+    "question": "Como um algoritmo pode usar comandos condicionais aninhados (um se dentro de outro) para refinar uma decisão que já foi tomada, como no caso de classificar a nota de aprovação de um aluno em faixas?",
+    "ground_truth": "Um comando condicional aninhado é um se colocado dentro do bloco verdadeiro (ou falso) de outro se, permitindo que uma segunda decisão só seja avaliada depois que a primeira condição já foi confirmada. No exemplo da média do aluno, primeiro se verifica se ele foi aprovado (média maior ou igual a 5); só então, dentro desse bloco, novos comandos se checam a faixa exata da média para imprimir se a aprovação foi com louvor, mérito ou destaque, e cada se aninhado precisa do seu próprio fecho correspondente.",
+    "source_book": "Algoritmos e Programação de Computadores (Dilermando Junior, Gilberto Nakamiti)"
+  },
+  {
+    "id": "Q036",
+    "category": "MEDIA",
+    "question": "Como a estrutura de repetição com teste no início (enquanto) controla quantas vezes um trecho do algoritmo será executado?",
+    "ground_truth": "A estrutura enquanto verifica a condição antes de cada execução do bloco de comandos, repetindo-o somente enquanto essa condição permanecer verdadeira. Por isso, se a condição já for falsa na primeira verificação, o bloco pode não ser executado nenhuma vez, o que é a principal característica desse tipo de repetição.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q037",
+    "category": "MEDIA",
+    "question": "Numa estrutura enquanto, o que precisa ser feito para garantir que o número de repetições seja controlado, já que essa estrutura não oferece esse recurso por conta própria?",
+    "ground_truth": "Como a estrutura enquanto por si só não sabe quantas vezes já repetiu, é necessário criar um contador: uma variável com valor inicial definido, que é incrementada a cada repetição, e usar essa variável na condição de parada do laço, por exemplo repetindo enquanto o contador for menor que a quantidade desejada de execuções.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q038",
+    "category": "MEDIA",
+    "question": "Como funciona a estrutura de repetição para (com variável de controle) e o que a diferencia das demais estruturas de repetição?",
+    "ground_truth": "A estrutura para repete um bloco de comandos um número predeterminado de vezes, usando uma variável de controle que recebe um valor inicial, é comparada com um valor final e é incrementada por um passo definido a cada execução. Diferente do enquanto e do repita, ela não depende de uma condição lógica avaliada a cada volta, mas sim de limites fixos estabelecidos antes do início do laço.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q039",
+    "category": "MEDIA",
+    "question": "O que diferencia a estrutura repita...até das demais estruturas de repetição em relação ao momento em que a condição é testada?",
+    "ground_truth": "Na estrutura repita, o bloco de comandos é executado primeiro e a condição só é avaliada depois, ao final de cada repetição, continuando o laço até que essa condição se torne verdadeira. Por causa disso, o bloco de comandos é sempre executado pelo menos uma vez, mesmo que a condição já fosse verdadeira antes da primeira execução, o que não acontece na estrutura enquanto.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q040",
+    "category": "MEDIA",
+    "question": "Quando se troca uma estrutura enquanto por uma estrutura repita para resolver o mesmo problema, o que precisa mudar na condição usada?",
+    "ground_truth": "Ao substituir um enquanto por um repita mantendo a mesma lógica, a condição usada no repita deve ser a negação da condição que era usada no enquanto, já que o enquanto continua repetindo enquanto a condição é verdadeira e o repita continua repetindo até que a condição se torne verdadeira (ou seja, para quando a condição original seria falsa).",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q041",
+    "category": "MEDIA",
+    "question": "Numa estrutura de repetição, o que é um contador e para que serve dentro do laço?",
+    "ground_truth": "Um contador é uma variável inicializada com um valor de partida (geralmente zero) que é incrementada de um valor fixo, normalmente 1, a cada repetição do laço. Ele serve para contar quantas vezes o bloco de comandos já foi executado, permitindo, por exemplo, controlar quando a repetição deve parar.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q042",
+    "category": "MEDIA",
+    "question": "Qual é a diferença entre um contador e um acumulador usados dentro de estruturas de repetição?",
+    "ground_truth": "O contador soma sempre um valor constante (geralmente 1) a cada repetição, servindo para contar quantas vezes o laço executou. Já o acumulador soma, a cada repetição, um valor que pode variar (como uma nota lida do usuário), acumulando um somatório desses valores diferentes ao longo das iterações, sendo depois usado, por exemplo, para calcular uma média.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q043",
+    "category": "MEDIA",
+    "question": "Por que um acumulador precisa ser inicializado com zero antes de entrar no laço de repetição?",
+    "ground_truth": "O acumulador precisa começar em zero porque ele vai receber, a cada repetição, a soma do seu próprio valor anterior com um novo valor lido ou calculado; se não fosse inicializado, o primeiro somatório partiria de um valor indefinido ou de lixo de memória, invalidando o resultado final acumulado ao término do laço.",
+    "source_book": "Fundamentos da programação de computadores (Ana Fernanda Gomes Ascencio et al.)"
+  },
+  {
+    "id": "Q044",
+    "category": "MEDIA",
+    "question": "O que é um vetor (variável composta unidimensional) e como um elemento específico dentro dele é acessado?",
+    "ground_truth": "Um vetor é um conjunto de variáveis do mesmo tipo, que compartilham o mesmo nome (identificador) e ficam armazenadas sequencialmente na memória, formando uma estrutura de apenas uma dimensão. Para acessar um elemento específico, usa-se o nome do vetor seguido de um índice entre colchetes, que indica a posição desejada dentro dos limites definidos na declaração.",
+    "source_book": "Algoritmos e Programação de Computadores (Dilermando Junior, Gilberto Nakamiti)"
+  },
+  {
+    "id": "Q045",
+    "category": "MEDIA",
+    "question": "Qual é a diferença entre o índice de um vetor e o elemento armazenado nessa posição?",
+    "ground_truth": "O índice é apenas a posição dentro do vetor (equivalente ao andar de um prédio), enquanto o elemento é o dado efetivamente armazenado naquela posição. Não se deve confundir os dois: o índice serve só para localizar onde o valor está guardado, e é através dele que se manipula o conteúdo armazenado naquela posição específica.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q046",
+    "category": "MEDIA",
+    "question": "Como se calcula o número total de elementos de um vetor a partir dos limites inicial e final definidos na sua declaração?",
+    "ground_truth": "O número de elementos de um vetor é dado pela diferença entre o limite final (LF) e o limite inicial (LI), somando-se 1 ao resultado (LF - LI + 1). As posições do vetor são identificadas a partir do limite inicial, com incrementos unitários, até chegar ao limite final.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q047",
+    "category": "MEDIA",
+    "question": "O que é uma matriz (estrutura composta multidimensional) e o que a diferencia de um vetor comum?",
+    "ground_truth": "Enquanto um vetor precisa de apenas um índice para localizar um elemento, uma matriz é uma estrutura composta homogênea que precisa de mais de um índice para endereçamento, sendo por isso chamada de multidimensional. Numa matriz bidimensional, por exemplo, o primeiro índice indica a linha e o segundo indica a coluna do elemento desejado.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q048",
+    "category": "MEDIA",
+    "question": "Como uma matriz bidimensional é declarada e como se calcula a quantidade total de elementos que ela pode armazenar?",
+    "ground_truth": "Uma matriz é declarada informando o nome da variável seguido das dimensões entre colchetes, indicando o tamanho de cada dimensão (por exemplo, quantas linhas e quantas colunas) e o tipo de dado armazenado. A quantidade total de elementos é obtida multiplicando o tamanho de cada dimensão, ou seja, número de linhas vezes número de colunas.",
+    "source_book": "Fundamentos da programação de computadores (Ana Fernanda Gomes Ascencio et al.)"
+  },
+  {
+    "id": "Q049",
+    "category": "MEDIA",
+    "question": "Como é possível concatenar (juntar) duas cadeias de caracteres em um algoritmo, e o que essa operação produz como resultado?",
+    "ground_truth": "A concatenação junta o conteúdo de duas cadeias de caracteres, formando uma terceira cadeia que contém os caracteres da primeira seguidos pelos da segunda. Essa operação costuma ser feita por uma função específica (como CONCAT) ou pelo próprio sinal de adição, que muitas linguagens aceitam como atalho para concatenar strings.",
+    "source_book": "Fundamentos da programação de computadores (Ana Fernanda Gomes Ascencio et al.)"
+  },
+  {
+    "id": "Q050",
+    "category": "MEDIA",
+    "question": "Como se descobre o número de caracteres (tamanho) armazenados em uma cadeia de caracteres, e como se pode saber se uma cadeia aparece dentro de outra?",
+    "ground_truth": "Para obter o tamanho de uma cadeia, usa-se uma função (como LENGTH) que retorna a quantidade de caracteres armazenados nela. Já para verificar se uma cadeia aparece dentro de outra, existe uma função (como POS) que retorna a posição inicial em que a primeira cadeia é encontrada dentro da segunda, retornando zero caso ela não seja encontrada.",
+    "source_book": "Fundamentos da programação de computadores (Ana Fernanda Gomes Ascencio et al.)"
+  },
+  {
+    "id": "Q051",
+    "category": "MEDIA",
+    "question": "Como funciona a combinação de operadores lógicos (e, ou, não) com operadores relacionais em uma expressão lógica composta?",
+    "ground_truth": "Numa expressão lógica composta, cada operador relacional (como maior, menor ou igual) primeiro produz um resultado verdadeiro ou falso a partir da comparação entre dois valores; esses resultados parciais são então combinados usando operadores lógicos, onde e só resulta verdadeiro se ambas as condições forem verdadeiras, ou resulta verdadeiro se pelo menos uma for verdadeira, e não inverte o valor lógico de uma condição.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q052",
+    "category": "MEDIA",
+    "question": "O que faz o operador de módulo (resto da divisão) e como ele pode ser usado para verificar se um número é par ou ímpar?",
+    "ground_truth": "O operador de módulo (mod) retorna o resto da divisão inteira entre dois números, por exemplo 9 mod 4 resulta em 1. Para verificar se um número é par ou ímpar, basta calcular o resto da sua divisão por 2: se o resto for igual a zero o número é par, e se for igual a 1 o número é ímpar.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q053",
+    "category": "MEDIA",
+    "question": "Por que é necessário usar laços de repetição aninhados (um dentro do outro) para simular algo como uma contagem regressiva de minutos e segundos?",
+    "ground_truth": "Como existem duas grandezas variando de forma dependente (os segundos completam um ciclo inteiro antes de cada mudança de minuto), é preciso um laço externo controlando os minutos e um laço interno controlando os segundos, de forma que o laço mais interno complete todas as suas iterações (por exemplo, 60 valores de segundos) para cada única iteração do laço mais externo.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q054",
+    "category": "MEDIA",
+    "question": "Ao aninhar dois laços para percorrer uma matriz bidimensional, quantas vezes o laço mais interno é executado no total, e isso depende de quê?",
+    "ground_truth": "O laço mais interno é executado uma vez para cada iteração do laço mais externo, então o número total de execuções do laço interno é o produto entre a quantidade de iterações do laço externo e a quantidade de iterações do laço interno em cada passagem, o que corresponde a percorrer todas as colunas para cada linha da matriz.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q055",
+    "category": "MEDIA",
+    "question": "O que acontece quando uma estrutura de seleção (se-então-senão) é combinada com uma estrutura de repetição, como no caso de decidir a aprovação de vários alunos dentro de um mesmo laço?",
+    "ground_truth": "A cada repetição do laço, o algoritmo lê os dados de um aluno, calcula sua média e então executa a estrutura condicional para decidir e exibir se ele foi aprovado ou reprovado, repetindo esse processo completo (leitura, cálculo e decisão) para cada novo aluno até que a condição de parada do laço seja atingida.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q056",
+    "category": "MEDIA",
+    "question": "Como funciona uma estrutura de seleção múltipla (do tipo escolha/caso) usada dentro de um laço de repetição para contar ocorrências de diferentes categorias, como tipos de vinho lidos até um valor finalizador?",
+    "ground_truth": "Dentro do laço, a cada valor lido, a estrutura de seleção múltipla verifica a qual categoria (caso) aquele valor corresponde e incrementa o contador específico daquela categoria, além de um contador geral; o laço se repete até que o valor finalizador seja lido, quando então o contador geral é ajustado para descontar essa última leitura antes de calcular os percentuais de cada categoria.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q057",
+    "category": "MEDIA",
+    "question": "Que tipo de estrutura de repetição é mais indicada quando já se sabe exatamente quantas vezes um trecho do algoritmo deve ser executado, como ler as notas de uma turma de tamanho fixo?",
+    "ground_truth": "Quando o número de repetições é conhecido com antecedência, a estrutura mais indicada é a de repetição com variável de controle (para), pois ela já prevê um valor inicial, um valor final e um passo de incremento definidos antes do início do laço, sem depender da avaliação de uma condição lógica a cada iteração como ocorre no enquanto ou no repita.",
+    "source_book": "Fundamentos da programação de computadores (Ana Fernanda Gomes Ascencio et al.)"
+  },
+  {
+    "id": "Q058",
+    "category": "MEDIA",
+    "question": "Numa matriz de uma dimensão (vetor), qual é a vantagem operacional de usar essa estrutura em vez de declarar várias variáveis simples separadas para armazenar um conjunto de valores relacionados?",
+    "ground_truth": "Usando uma matriz de uma dimensão, é possível armazenar diversos valores relacionados sob um único identificador, acessando cada um deles por meio de um índice, em vez de precisar criar e nomear uma variável simples diferente para cada valor. Isso facilita o processamento em laço, já que o índice pode variar automaticamente a cada repetição para acessar sequencialmente todas as posições da estrutura.",
+    "source_book": "Algoritmos Lógica para desenvolvimento de programação de computadores"
+  },
+  {
+    "id": "Q059",
+    "category": "MEDIA",
+    "question": "Como as listas em Python podem ser percorridas usando um laço while, e o que controla o acesso a cada posição durante essa repetição?",
+    "ground_truth": "Para percorrer uma lista com while, cria-se uma variável de índice que começa em zero e é incrementada a cada repetição, enquanto essa variável for menor que o tamanho da lista (obtido pela função len); a cada iteração, o índice atual é usado para acessar o elemento correspondente da lista, avançando posição por posição até alcançar o fim.",
+    "source_book": "Introdução à programação com Python (Nilo Ney Coutinho Menezes)"
+  },
+  {
+    "id": "Q060",
+    "category": "MEDIA",
+    "question": "Qual é a relação entre a função len e os índices válidos de uma lista em Python?",
+    "ground_truth": "A função len retorna o número de elementos de uma lista, e como a contagem de índices em Python começa em zero, os índices válidos de uma lista variam de 0 até o valor retornado por len menos 1. Por isso, comparações usadas para percorrer a lista (como em um laço while) costumam testar se o índice é menor que len da lista, e não menor ou igual.",
+    "source_book": "Introdução à programação com Python (Nilo Ney Coutinho Menezes)"
+  },
+  {
+    "id": "Q061",
+    "category": "DIFICIL",
+    "question": "Qual é a diferença fundamental entre uma procedure (procedimento) e uma function (função) como subprogramas?",
+    "ground_truth": "Ambas desviam a execução do programa principal para realizar uma tarefa específica, mas a function sempre devolve um valor para quem a chamou, valor esse associado ao seu próprio nome, enquanto a procedure executa a operação e não retorna nenhum valor ao ponto de chamada.",
+    "source_book": "Fundamentos da programação de computadores (Ana Fernanda Gomes Ascencio et al.)"
+  },
+  {
+    "id": "Q062",
+    "category": "DIFICIL",
+    "question": "No método de módulos do Forbellone, o que diferencia um módulo com 'contexto de ação' de um módulo com 'contexto de resultado'?",
+    "ground_truth": "Um módulo tem contexto de ação quando sua essência é executar um conjunto de ações que resolve uma parte do problema, sem se preocupar em devolver um valor específico. Já um módulo tem contexto de resultado quando seu objetivo é calcular e devolver, através do comando 'retorne', um único valor que fica associado ao próprio nome do módulo, exigindo compatibilidade entre o tipo desse valor e o tipo da variável que o recebe.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q063",
+    "category": "DIFICIL",
+    "question": "Segundo Sebesta, qual é a principal diferença de comportamento entre a passagem de parâmetros por valor e por referência quanto ao acesso do subprograma chamado às variáveis do chamador?",
+    "ground_truth": "Na passagem por valor, o valor do argumento é copiado para o parâmetro formal, que passa a se comportar como uma variável local do subprograma chamado, de modo que alterações nele não afetam a variável original do chamador. Já na passagem por referência, é transmitido um caminho de acesso (normalmente um endereço) até a variável do chamador, e o subprograma chamado passa a compartilhar e poder alterar diretamente essa variável original.",
+    "source_book": "Conceitos de Linguagens de Programação (Robert W. Sebesta)"
+  },
+  {
+    "id": "Q064",
+    "category": "DIFICIL",
+    "question": "No exemplo com as sub-rotinas S2 (parâmetro por valor) e S3 (parâmetro por referência) do livro de Ascencio et al., o que acontece com as variáveis globais X e Y do programa principal depois de cada chamada?",
+    "ground_truth": "Depois de chamar S2, que recebe X e Y por valor, os valores das variáveis globais permanecem inalterados, pois a sub-rotina só modificou cópias locais. Já depois de chamar S3, que recebe os mesmos nomes por referência, as alterações feitas dentro da sub-rotina refletem diretamente nas variáveis globais do programa principal, porque elas passam a se comportar como variáveis globais dentro da sub-rotina.",
+    "source_book": "Fundamentos da programação de computadores (Ana Fernanda Gomes Ascencio et al.)"
+  },
+  {
+    "id": "Q065",
+    "category": "DIFICIL",
+    "question": "No exemplo do Forbellone sobre escopo de variáveis com módulos aninhados, o que acontece quando existe uma variável K declarada tanto no início do algoritmo (global) quanto dentro de um módulo interno, com o mesmo nome?",
+    "ground_truth": "Quando ocorre esse conflito de nomes, o módulo em que a variável foi declarada localmente, assim como os módulos hierarquicamente subordinados a ele, sempre utilizam a variável local, ignorando a variável global de mesmo nome. Módulos que não descendem desse módulo continuam enxergando apenas a variável global K original.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q066",
+    "category": "DIFICIL",
+    "question": "De acordo com Ascencio et al., qual é a diferença entre uma variável local e uma variável global em um algoritmo com sub-rotinas, e o que ocorre com cada uma ao término da execução?",
+    "ground_truth": "Variáveis locais são declaradas dentro de uma sub-rotina e só podem ser usadas dentro dela, sendo destruídas (perdendo o conteúdo) assim que a execução da sub-rotina termina. Variáveis globais são declaradas fora de qualquer sub-rotina e podem ser acessadas por qualquer parte do programa, inclusive pelas sub-rotinas, sendo destruídas somente quando o programa inteiro termina.",
+    "source_book": "Fundamentos da programação de computadores (Ana Fernanda Gomes Ascencio et al.)"
+  },
+  {
+    "id": "Q067",
+    "category": "DIFICIL",
+    "question": "O que é recursão e por que toda função recursiva precisa ter um caso-base?",
+    "ground_truth": "Recursão é quando uma função chama a si mesma para resolver um problema, normalmente reduzindo-o a uma versão menor do mesmo problema. Toda função recursiva precisa de um caso-base, a situação mais simples em que a função deixa de chamar a si mesma, porque, sem ele, as chamadas se repetiriam indefinidamente, resultando em um loop infinito que nunca produz um resultado.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q068",
+    "category": "DIFICIL",
+    "question": "O que é a 'pilha de chamada' (call stack) e qual é a relação dela com a recursão?",
+    "ground_truth": "A pilha de chamada é a estrutura que o computador usa internamente para guardar o estado de cada chamada de função ainda não concluída; cada nova chamada é empilhada no topo, e quando uma função retorna, sua parte é removida do topo, devolvendo a execução à função anterior. Em funções recursivas, cada chamada recursiva cria uma nova entrada nessa pilha, de modo que uma recursão muito profunda pode consumir bastante memória.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q069",
+    "category": "DIFICIL",
+    "question": "Como funciona a função recursiva do fatorial e qual é o seu caso-base?",
+    "ground_truth": "A função recursiva do fatorial retorna 1 quando o argumento é igual a 1 (esse é o caso-base) e, em qualquer outro caso, retorna o próprio argumento multiplicado pelo resultado da chamada recursiva com o argumento menos um. Assim, calcular o fatorial de um número é reduzido repetidamente ao cálculo do fatorial de um número menor, até alcançar o caso-base.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q070",
+    "category": "DIFICIL",
+    "question": "Ao calcular o fatorial de 3 usando a versão recursiva, o que acontece na pilha de chamada enquanto a função ainda não retornou nenhum valor?",
+    "ground_truth": "A pilha de chamada acumula uma entrada para cada chamada ainda incompleta: primeiro fica a chamada com argumento 3 esperando o resultado da chamada com argumento 2, que por sua vez espera o resultado da chamada com argumento 1. Quando essa última atinge o caso-base e devolve 1, os valores retornam multiplicando-se em cada nível da pilha até a chamada original devolver o resultado final, e a pilha se esvaziar.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q071",
+    "category": "DIFICIL",
+    "question": "Como funciona a pesquisa simples (busca sequencial) e qual é o seu tempo de execução na notação Big O?",
+    "ground_truth": "Na pesquisa simples, o algoritmo percorre a lista item por item, do início ao fim, comparando cada elemento até encontrar o valor procurado ou chegar ao final da lista. No pior caso é preciso verificar todos os n elementos, por isso seu tempo de execução é O(n), crescendo linearmente com o tamanho da lista.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q072",
+    "category": "DIFICIL",
+    "question": "Diferente da pesquisa binária, a pesquisa simples exige que a lista esteja ordenada para funcionar?",
+    "ground_truth": "Não. A pesquisa simples funciona em qualquer lista, ordenada ou não, pois apenas percorre os elementos um a um sem depender de nenhuma organização prévia dos dados. É justamente por não exigir ordenação que ela é mais lenta, O(n), do que a pesquisa binária, O(log n), que só pode ser usada em listas ordenadas.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q073",
+    "category": "DIFICIL",
+    "question": "Como funciona a pesquisa binária e qual é o seu pré-requisito sobre os dados?",
+    "ground_truth": "A pesquisa binária localiza um elemento em uma lista ordenada comparando o valor procurado com o elemento do meio; se o procurado for menor, a busca continua apenas na metade inferior, se for maior, continua na metade superior, repetindo esse processo e descartando metade dos elementos restantes a cada passo. O pré-requisito é que a lista esteja ordenada, pois sem isso não é possível decidir corretamente em qual metade continuar a busca.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q074",
+    "category": "DIFICIL",
+    "question": "Qual é o tempo de execução da pesquisa binária na notação Big O e por que ele é considerado muito mais rápido que o da pesquisa simples em listas grandes?",
+    "ground_truth": "A pesquisa binária tem tempo de execução O(log n), pois a cada comparação o espaço de busca é dividido pela metade. Isso a torna muito mais rápida que a pesquisa simples, O(n), à medida que a lista cresce: buscar em uma lista de 4 bilhões de elementos levaria por volta de 32 comparações na busca binária, contra até 4 bilhões de comparações na busca simples.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q075",
+    "category": "DIFICIL",
+    "question": "Como funciona o algoritmo de ordenação por seleção (selection sort)?",
+    "ground_truth": "O algoritmo percorre repetidamente os elementos ainda não ordenados à procura do menor valor entre eles e o move para a próxima posição da lista ordenada resultante. Essa busca pelo menor elemento restante é repetida até que todos os elementos tenham sido selecionados, formando a lista final em ordem crescente.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q076",
+    "category": "DIFICIL",
+    "question": "Qual é o tempo de execução da ordenação por seleção e por que ele continua sendo O(n²) mesmo que o número de elementos verificados a cada passagem diminua?",
+    "ground_truth": "Encontrar o menor elemento em uma lista custa O(n), e essa operação precisa ser repetida n vezes, uma para cada posição da lista final, resultando em O(n × n), ou seja, O(n²). Apesar de a cada repetição sobrarem menos elementos para verificar, a notação Big O ignora constantes como a fração média de elementos analisados, então o resultado continua sendo expresso como O(n²).",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q077",
+    "category": "DIFICIL",
+    "question": "Como funciona o método de ordenação conhecido como bubble sort ('ordenação por bolhas')?",
+    "ground_truth": "O bubble sort ordena a lista comparando repetidamente pares de elementos adjacentes e trocando-os de posição sempre que estão fora da ordem desejada. Esse processo de comparação e troca é repetido percorrendo a lista até que não sejam mais necessárias trocas, ou seja, até que todos os elementos estejam ordenados.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q078",
+    "category": "DIFICIL",
+    "question": "Qual é a diferença de estratégia entre a ordenação por seleção direta e a ordenação por bolhas (bubble sort)?",
+    "ground_truth": "Na seleção direta, o algoritmo busca o menor elemento entre os que restam e o troca diretamente para a posição correta, repetindo o processo para as posições seguintes. Já no bubble sort não há busca pelo menor elemento; em vez disso, o algoritmo compara pares de elementos vizinhos e os troca quando estão fora de ordem, fazendo os maiores valores irem gradualmente para o final da lista a cada passagem completa.",
+    "source_book": "Lógica de programação (André Luiz Villar Forbellone)"
+  },
+  {
+    "id": "Q079",
+    "category": "DIFICIL",
+    "question": "Como o quicksort aplica a estratégia de dividir para conquistar para ordenar um array?",
+    "ground_truth": "O quicksort escolhe um elemento do array como pivô e particiona o restante em dois subarrays: um com os elementos menores que o pivô e outro com os maiores. Em seguida, aplica recursivamente o mesmo processo a cada subarray até atingir o caso-base, que são arrays vazios ou com um único elemento, e a combinação final é feita unindo subarray menor, pivô e subarray maior, produzindo uma lista ordenada.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q080",
+    "category": "DIFICIL",
+    "question": "Por que o quicksort costuma ser mais rápido que o merge sort na prática, mesmo ambos tendo o mesmo tempo de execução médio O(n log n)?",
+    "ground_truth": "Apesar de ambos terem tempo de execução médio O(n log n), o quicksort tem uma constante multiplicativa menor que a do merge sort, e essa constante, normalmente ignorada na notação Big O, passa a fazer diferença quando dois algoritmos compartilham a mesma ordem de crescimento. Além disso, na prática o quicksort tende a se comportar mais vezes próximo do seu caso médio do que do seu pior caso, O(n²), o que o torna mais rápido na maioria das situações reais.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q081",
+    "category": "DIFICIL",
+    "question": "O que representa a notação Big O e por que ela não mede o tempo de execução de um algoritmo em segundos?",
+    "ground_truth": "A notação Big O expressa como o tempo de execução de um algoritmo cresce à medida que o tamanho da entrada aumenta, e não um tempo medido em segundos, pois a velocidade real depende do hardware usado. Assim, o Big O foca na taxa de crescimento — por exemplo, O(n) significa que o tempo cresce linearmente com o número de elementos —, permitindo comparar algoritmos de forma independente da máquina em que são executados.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q082",
+    "category": "DIFICIL",
+    "question": "Por que a constante que acompanha o tempo de execução de um algoritmo geralmente é ignorada na notação Big O, mas em alguns casos ela pode fazer diferença?",
+    "ground_truth": "Normalmente a constante é ignorada porque, quando dois algoritmos têm ordens de crescimento diferentes na notação Big O, como O(n) contra O(log n), essa diferença de crescimento é muito mais determinante do que qualquer constante, principalmente para entradas grandes. Porém, quando dois algoritmos compartilham a mesma notação Big O, como quicksort e merge sort, ambos O(n log n), a constante passa a fazer diferença prática, sendo o motivo pelo qual o quicksort costuma ser mais rápido que o merge sort no dia a dia.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q083",
+    "category": "DIFICIL",
+    "question": "O que caracteriza a estrutura de dados pilha e quais são suas duas operações básicas?",
+    "ground_truth": "A pilha é uma estrutura de dados do tipo LIFO (Last In, First Out, ou 'Último a Entrar, Primeiro a Sair'), na qual o último elemento inserido é sempre o primeiro a ser removido. Suas duas operações básicas são push, que insere um elemento no topo da pilha, e pop, que remove e lê o elemento que está no topo.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q084",
+    "category": "DIFICIL",
+    "question": "De que forma a pilha de chamada (call stack) do computador é um exemplo prático do funcionamento de uma pilha LIFO?",
+    "ground_truth": "Cada vez que uma função é chamada, o computador empilha no topo da pilha uma nova entrada com o estado dessa chamada; quando a função termina e retorna, apenas a entrada do topo é removida, devolvendo a execução à função que fez a chamada mais recente. Esse comportamento, em que a última chamada feita é sempre a primeira a terminar e ser removida, corresponde exatamente à lógica LIFO de uma pilha.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q085",
+    "category": "DIFICIL",
+    "question": "O que caracteriza a estrutura de dados fila e quais são suas duas operações básicas?",
+    "ground_truth": "A fila é uma estrutura de dados do tipo FIFO (First In, First Out, ou 'Primeiro a Entrar, Primeiro a Sair'), na qual o primeiro elemento inserido é o primeiro a ser removido, assim como em uma fila de pessoas. Suas duas operações básicas são enqueue, que insere um elemento no final da fila, e dequeue, que remove e lê o elemento que está no início dela.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q086",
+    "category": "DIFICIL",
+    "question": "Por que a pesquisa em largura em um grafo usa uma fila, em vez de uma pilha, para guardar os elementos a serem verificados?",
+    "ground_truth": "A pesquisa em largura precisa verificar as conexões na mesma ordem em que foram adicionadas à lista de busca, garantindo que conexões de primeiro grau sejam checadas antes das de segundo grau, o que é essencial para encontrar o caminho mínimo. Como a fila é FIFO, ela preserva essa ordem de chegada; uma pilha, por ser LIFO, inverteria a ordem e faria o algoritmo verificar primeiro os elementos adicionados mais recentemente, o que não garantiria encontrar o caminho mais curto.",
+    "source_book": "Entendendo Algoritmos (Aditya Y. Bhargava)"
+  },
+  {
+    "id": "Q087",
+    "category": "DIFICIL",
+    "question": "Qual é a diferença entre vinculação de tipos estática e vinculação de tipos dinâmica, segundo Sebesta?",
+    "ground_truth": "Na vinculação estática, o tipo de uma variável é definido antes da execução, por meio de uma declaração explícita ou implícita, e permanece fixo durante toda a vida da variável. Na vinculação dinâmica, o tipo não é declarado antecipadamente: a variável só é vinculada a um tipo quando recebe um valor em uma atribuição, e esse tipo pode mudar quantas vezes forem necessárias ao longo da execução, conforme novos valores lhe sejam atribuídos.",
+    "source_book": "Conceitos de Linguagens de Programação (Robert W. Sebesta)"
+  },
+  {
+    "id": "Q088",
+    "category": "DIFICIL",
+    "question": "Quais são as principais desvantagens da vinculação de tipos dinâmica apontadas por Sebesta?",
+    "ground_truth": "A vinculação dinâmica reduz a confiabilidade dos programas, pois o compilador perde a capacidade de detectar erros de tipo antes da execução: um erro de digitação que atribui um valor do tipo errado a uma variável não é identificado, o tipo da variável simplesmente muda. Além disso, ela tem custo maior em tempo de execução, já que a verificação de tipos precisa ocorrer durante a execução e cada variável precisa manter um descritor de tipo, o que costuma exigir que a linguagem seja implementada por um interpretador em vez de um compilador.",
+    "source_book": "Conceitos de Linguagens de Programação (Robert W. Sebesta)"
+  },
+  {
+    "id": "Q089",
+    "category": "DIFICIL",
+    "question": "Como funciona a regra de escopo estático para resolver a que variável uma referência não local se refere?",
+    "ground_truth": "No escopo estático, quando uma variável é referenciada dentro de um subprograma, a busca por sua declaração começa nesse próprio subprograma; se não for encontrada ali, a busca segue para o 'pai estático', a unidade de programa que o envolve textualmente no código-fonte, e assim sucessivamente até os ancestrais mais externos, até a declaração ser localizada. Por depender apenas da estrutura textual do programa, o escopo de uma variável pode ser determinado antes mesmo de o programa ser executado.",
+    "source_book": "Conceitos de Linguagens de Programação (Robert W. Sebesta)"
+  },
+  {
+    "id": "Q090",
+    "category": "DIFICIL",
+    "question": "Em que o escopo dinâmico se diferencia do escopo estático na forma de resolver uma referência a uma variável não local?",
+    "ground_truth": "Enquanto o escopo estático segue a estrutura textual do código-fonte para localizar uma declaração, o escopo dinâmico segue a sequência real de chamadas de subprogramas em tempo de execução: a busca por uma variável não local passa primeiro pelo subprograma que chamou o subprograma atual, depois por quem chamou esse, e assim por diante. Por isso, o significado de uma mesma referência pode mudar de uma execução para outra, dependendo da sequência de chamadas, e só pode ser determinado durante a execução do programa.",
+    "source_book": "Conceitos de Linguagens de Programação (Robert W. Sebesta)"
+  }
+]
